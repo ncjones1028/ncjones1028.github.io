@@ -1,0 +1,28 @@
+html,
+
+body {
+    border-bottom-right-radius: 50px;
+}
+
+article {
+    display: block;
+    padding-right: 50px;
+}
+
+.aber {
+    width: 30%;
+    float: right;
+    padding-left: 50px;
+}
+
+.lulu {
+    width: 30%;
+    float: right;
+    padding-left: 50px;
+}
+
+.dmv {
+    width: 30%;
+    float: right;
+    padding-left: 50px;
+}
