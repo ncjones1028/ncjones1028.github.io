@@ -1,0 +1,119 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+#wrap {
+    width: 75%;
+    margin: auto;
+    background-color: red;
+}
+
+header {
+    background-color: white;
+    float: auto;
+
+
+
+}
+
+header img {
+    display: block;
+    text-align: center;
+    float: auto;
+    width: 100%;
+}
+
+nav {
+    background-color: turquoise;
+    text-align: center;
+    padding: .5em;
+
+
+
+}
+
+nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: gainsboro;
+    background color: navy;
+}
+
+
+nav li {
+    display: inline;
+}
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 2%;
+    overflow: auto;
+    float: right;
+    width: 65%;
+    background-color: white;
+
+
+
+
+}
+
+section h1 {
+    color: black;
+    font: 160px;
+
+    font-size: 30px;
+
+}
+
+.cupcake {
+    width: 30%;
+    float: right;
+    padding-left: 50px;
+}
+
+footer {
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    clear: both;
+}
+
+footer a {
+    padding-right: 5px;
+
+}
+
+aside {
+    width: 27%;
+    background-color: red;
+    float: left;
+    padding: 2%;
+    overflow: auto;
+
+
+
+}
+
+aside ul {
+    color: white;
+}
