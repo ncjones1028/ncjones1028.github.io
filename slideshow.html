@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="template.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <header>
+            Header
+        </header>
+
+        <nav>
+            Nav
+        </nav>
+
+        <section>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="cutelion.jpg" data-thumb="images/cutelion.jpg" alt="cutelion" />
+                    <a href="http://dev7studios.com"><img src="tiger.jpg" data-thumb="images/tiger.jpg" alt="tiger" title="This is an example of a caption" /></a>
+                    <img src="llama.jpg" data-thumb="images/llama.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="beartwo.jpg" data-thumb="images/beartwo.jpg" alt="bear" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            &copy; Jones Company 2020. No violators.
+        </footer>
+    </div>
+    <!--CLose wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
