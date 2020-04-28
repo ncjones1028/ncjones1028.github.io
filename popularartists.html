@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+<head>
+    <title>Spotify</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="final.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="final.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="winterbackground">
+        <div id="wrap">
+            <header id="winterheader">
+
+                <img src="spotify.jpg">
+
+            </header>
+            <nav>
+                <ul>
+
+                    <li><a href="final.html"> Home</a></li>
+                    <li><a href="playlists.html"> Playlists</a></li>
+                    <li><a href="reviews.html"> Reviews</a></li>
+                    <li><a href="popularartists.html"> Popular Artists</a></li>
+                    <li><a href="applemusic.html"> VS. Apple Music</a></li>
+                </ul>
+
+
+
+
+            </nav>
+            <section>
+                <h1>Popular Artists on Spotify</h1>
+
+                <img src="popularartists.jpg" class="homeclass">
+
+                <p>
+                    The top popular artists in the last year were Drake, Ed Sheeran, and Ariana Grande. I have pictured them down below. I was surprised a bit
+                    if I am being honest. I thought people did not listen to Ed Sheeran anymore. Same with Ariana Grande. The other top artists after these
+                    three were Post Malone, Billie Eilish, and Shawn Mendes.
+                </p>
+
+
+            </section>
+
+
+            <section>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+                <div class="fb-post" data-href="https://www.facebook.com/spotifyusa/posts/3176205489059075" data-show-text="true" data-width="">
+                    <blockquote cite="https://developers.facebook.com/spotifyusa/posts/3176205489059075" class="fb-xfbml-parse-ignore">
+                        <p>The perfect rap albums turns 25 today. Prodigy and Havoc Of Mobb Deep&#039;s The Infamous is simply flawless. You agree? spoti.fi/TheInfamous</p>Posted by <a href="https://www.facebook.com/spotifyusa/">Spotify</a> on&nbsp;<a href="https://developers.facebook.com/spotifyusa/posts/3176205489059075">Saturday, April 25, 2020</a>
+                    </blockquote>
+                </div>
+
+            </section>
+
+
+            <div class="slider-wrapper theme-light">
+                <div id="slider" class="nivoSlider">
+                    <img src="drake.jpg" data-thumb="drake.jpg" alt="cutelion" />
+                    <a href="http://dev7studios.com"><img src="edsheeran.jpg" data-thumb="edsheeran.jpg" alt="tiger" title="This is an example of a caption" /></a>
+                    <img src="ariana.jpg" data-thumb="ariana.jpg" alt="" data-transition="slideInLeft" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+
+            </div>
+
+
+
+
+            <footer> &copy; Jones Company 2020. No violators. </footer>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+
+
+
+
+</HTML>

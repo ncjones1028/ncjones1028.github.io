@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {}
+
+
+header img {
+    width: 80%;
+    padding-left: 80px;
+}
+
+nav {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+nav a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgrey;
+    background color: navy;
+}
+
+
+nav li {
+    display: inline;
+}
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    overflow: auto;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+section h1 {
+    color: black;
+    font: 160px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+footer {
+    background-color: dark green;
+    color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.autumn {
+    width: 30%;
+    float: right;
+    padding-left: 50px;
+}
+
+.homeclass {
+    width: 30%;
+    float: right;
+    padding-right: 50px;
+}
+
+#fall {
+    background-color: orange;
+}
+
+#fallbackground {
+    background-color: orange
+}
+
+#homebackground {
+    background-color: mediumpurple
+}
+
+#homeheader {
+    background-color: mediumpurple
+}
+
+#winterheader {
+    background-color: lightcyan;
+}
+
+#winterbackground {
+    background-color: lightcyan;
+}
+
+#springbackground {
+    background-color: lightgreen;
+}
+
+#springheader {
+    background-color: lightgreen;
+}
+
+#summerbackground {
+    background-color: #F0DF41;
+}
+
+#summerheader {
+    background-color: #F0DF41;
+}
+
+.summerfun {
+    width: 30%;
+    float: right;
+    padding-right: 50px;
+}
+
+.springspring {
+    width: 30%;
+    float: right;
+    padding-right: 50px;
+}
+}
