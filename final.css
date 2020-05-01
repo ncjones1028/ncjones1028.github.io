@@ -140,15 +140,14 @@ footer {
 
 
 
-.slider img {
-    width: 100%;
-}
 
 
 
 
 
-#slider-wrapper theme-light {
+
+
+.slidercontainer {
     width: 50%;
-    height: 50%
+    height: auto;
 }
