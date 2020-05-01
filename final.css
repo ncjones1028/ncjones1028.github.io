@@ -137,3 +137,17 @@ footer {
     padding-right: 50px;
 }
 }
+
+
+
+.slider img {
+    width: 100%;
+}
+
+
+
+
+
+#slider-wrapper theme-light {
+    width: 50%;
+}
